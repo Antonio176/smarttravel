@@ -1,0 +1,43 @@
+
+
+@media screen and (max-width:400px) {
+
+  #menu ul{
+      margin-left: -2.5em;
+  }
+
+  #menu li{
+  list-style-type:none;
+  width: auto;
+  height: auto;
+  background-color:  #e6e6e6;
+  text-align: center;
+  }
+
+
+  #menu a{
+      text-decoration: none;
+      color: #8c8c8c;
+      display: block;
+  }
+
+
+  #menu a:hover{
+      background-color: #3385ff;
+  }
+  .change_li{
+    float: left;
+  }
+
+
+  #menu li ul{
+      display:none;
+  }
+
+
+  #menu li:hover > ul{
+      display: block;
+      margin-left: -2em;
+  }
+
+}
